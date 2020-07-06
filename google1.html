@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta charset="utf-8" http-equiv="content-type" content="text/html";/>
+	<meta name="viewport" content="width=device-width, user-scalable=yes";/>
+</head>
+<style type="text/css">
+	.btn{
+		text-align: center;
+		color: white;
+		width: 255px;
+		height: 130px;
+		font-size: 50px;
+		background-color: gray;
+
+	}
+	}
+	#btnRed{
+	}
+	
+	#btnGreen{
+		
+	}
+	
+	#btnWhite{
+		color: black;
+		
+	}
+
+	
+	
+	
+	
+</style>
+<script type="text/javascript">
+	function redBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='RED';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function yellowBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='YELLOW';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function greenBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='GREEN';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function cyanBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='CYAN';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function blueBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='BLUE';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function magentaBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='MAGENTA';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function whiteBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='WHITE';
+		document.getElementById('btnOFF').style.backgroundColor='gray';
+	}
+		function OFFBtnClick(argument){
+		document.getElementById('btnRed').style.backgroundColor='gray';
+		document.getElementById('btnYellow').style.backgroundColor='gray';
+		document.getElementById('btnGreen').style.backgroundColor='gray';
+		document.getElementById('btnCyan').style.backgroundColor='gray';
+		document.getElementById('btnBlue').style.backgroundColor='gray';
+		document.getElementById('btnMagenta').style.backgroundColor='gray';
+		document.getElementById('btnWhite').style.backgroundColor='gray';
+		document.getElementById('btnOFF').style.backgroundColor='BLACK';
+	}
+</script>
+<body>
+	<a href="http://192.168.24.8:7040/red"><button id="btnRed" class='btn'onclick="redBtnClick()">RED</button></a>
+	<a href="http://192.168.24.8:7040/yellow"><button id="btnYellow" class='btn'onclick="yellowBtnClick()">YELLOW</button></a>
+	<a href="http://192.168.24.8:7040/green"><button id="btnGreen" class='btn'onclick="greenBtnClick()">GREEN</button></a>
+	<a href="http://192.168.24.8:7040/cyan"><button id="btnCyan" class='btn'onclick="cyanBtnClick()">CYAN</button></a>
+	<a href="http://192.168.24.8:7040/blue"><button id="btnBlue" class='btn'onclick="blueBtnClick()">BLUE</button></a>
+	<a href="http://192.168.24.8:7040/magenta"><button id="btnMagenta" class='btn'onclick="magentaBtnClick()">MAGENTA</button></a>
+	<a href="http://192.168.24.8:7040/white"><button id="btnWhite" class='btn'onclick="whiteBtnClick()">WHITE</button></a>
+	<a href="http://192.168.24.8:7040/black"><button id="btnOFF" class='btn'onclick="OFFBtnClick()">OFF</button></a>
+</body>	
+
+</html>
